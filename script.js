@@ -59,3 +59,8 @@ function traCuuSinhVien() {
         `;
     }
 }
+document.getElementById("maSinhVien").addEventListener("keydown", function(event) {
+    if (event.key === "Enter") {
+        traCuuSinhVien();
+    }
+});
